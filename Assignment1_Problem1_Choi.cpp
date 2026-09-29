@@ -39,6 +39,8 @@ void BubbleSort(int arr[], int n)
         cout << "Pass " << i + 1 << ": ";
         PrintArray(arr, n);
 
+
+        // Stop any operations if the array is presorted
         if (swapped == false)
         {
             break;

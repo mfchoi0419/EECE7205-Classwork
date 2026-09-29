@@ -4,6 +4,7 @@
 using namespace std;
 using namespace chrono;
 
+// Initialize global variables as counters for algorithm analysis
 int comparisons = 0;
 int swaps = 0;
 int shifts = 0;
